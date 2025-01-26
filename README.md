@@ -1,5 +1,6 @@
 # SPRINT-banque
-Projet sprint application bancaire licence 2 informatique  
+Projet sprint application bancaire licence 2 informatique 
+branche Master
 
 
 Conception d'un site web de base pour la gestion d'une banque 
