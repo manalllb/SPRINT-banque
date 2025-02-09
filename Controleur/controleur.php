@@ -23,13 +23,13 @@ function ctlConnectEmploye($login,$mdp){
 function acceuilEmploye($categorie){
     switch ($categorie){
         case 'agent' : 
-            require_once('Vue/agent.php');
+            require_once('Vue/Agent/agent.php');
             break;
         case 'conseiller':
-            require_once('Vue/conseiller.php');
+            require_once('Vue/Conseiller/conseiller.php');
             break;
         case 'directeur':
-            require_once('Vue/directeur.php');
+            require_once('Vue/Directeur/directeur.php');
             break;
         default:
             acceuil();
